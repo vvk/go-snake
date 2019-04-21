@@ -1,0 +1,27 @@
+package base
+
+const (
+	WIDTH  = 20
+	HEIGHT = 20
+	STARTX = 3
+	STARTY = 3
+	ENDX   = STARTX + WIDTH*2 + 1
+	ENDY   = STARTY + HEIGHT + 1
+
+	SNAKE_START_X = STARTX + WIDTH
+	SNAKE_START_Y = STARTY + HEIGHT/2
+
+	SNAKE_LENGTH = 2
+
+	GAME_INIT   = 4
+	GAME_PAUSE  = 5 //暂停
+	GAME_RUNING = 6
+	GAME_OVER   = 7
+)
+
+const (
+	UP = iota
+	RIGHT
+	DOWN
+	LEFT
+)
